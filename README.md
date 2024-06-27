@@ -1,2 +1,2 @@
 # QRCodyBot
-generate QRCode telegram bot
+generate QRCode telegram bot with java spring boot
