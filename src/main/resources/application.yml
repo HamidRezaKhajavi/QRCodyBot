@@ -1,0 +1,13 @@
+logging:
+  level:
+    root: info
+spring:
+  application:
+    name: qrcody-bot
+bot:
+  token: <bot_token>
+  username: <bot_username>
+  proxy:
+    host: 127.0.0.1
+    port: 10808
+    type: SOCKS5
