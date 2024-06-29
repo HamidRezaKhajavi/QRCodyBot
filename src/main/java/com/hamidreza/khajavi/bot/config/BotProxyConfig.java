@@ -1,6 +1,7 @@
 package com.hamidreza.khajavi.bot.config;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.telegram.telegrambots.bots.DefaultBotOptions;
@@ -10,6 +11,7 @@ import org.telegram.telegrambots.bots.DefaultBotOptions;
  * @since 6/20/2024
  */
 @Configuration
+@ConditionalOnProperty(value = "bot.proxy.enabled", havingValue = "true")
 public class BotProxyConfig {
 
     private final String proxyHost;
