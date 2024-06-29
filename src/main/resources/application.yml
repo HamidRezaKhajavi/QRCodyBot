@@ -8,6 +8,7 @@ bot:
   token: <bot_token>
   username: <bot_username>
   proxy:
+    enabled: false
     host: 127.0.0.1
     port: 10808
     type: SOCKS5
