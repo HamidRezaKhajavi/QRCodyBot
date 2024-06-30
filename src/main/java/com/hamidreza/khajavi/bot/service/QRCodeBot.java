@@ -15,7 +15,7 @@ import javax.annotation.PostConstruct;
 import java.text.MessageFormat;
 
 @Component
-class QRCodeBot extends TelegramLongPollingBot {
+public class QRCodeBot extends TelegramLongPollingBot {
 
     private static final Logger logger = LoggerFactory.getLogger(QRCodeBot.class);
 
